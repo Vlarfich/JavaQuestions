@@ -19,6 +19,7 @@
       метод "smthng".intern()
 </details>
 
+### 🔹 Классы обёртки, auto boxing/unboxing
 ### 🔹 abstract. Can abstract class not have absctract methods and vice versa.
 ### 🔹 final. What is it used with
 ### 🔹 static.
@@ -39,6 +40,8 @@
   ```
 </details>
 
+### 🔹 Что такое конструктор?
+### 🔹 Модификаторы доступа.
 ### 🔹 What is a static block?
     В каком порядке выполняются блоки в классе? static / non-static
 ### 🔹 What is a static class?
@@ -175,7 +178,10 @@ UnaryOperator 	T → T
     wait(), notify() notifyAll() methods
 ```
 </details>
-  
+
+
+### 🔹 equals(obj) and hashCode() rules.
+### 🔹 how to properley implement equals().
 ### 🔹 Optional class.
 ### 🔹 Stream API. Типы методов стримов и их примеры.
  [Stream API](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html)
@@ -187,10 +193,11 @@ UnaryOperator 	T → T
 ![image](https://github.com/Vlarfich/JavaQuestions/assets/106491695/cdec1a3a-32a6-4caf-a950-6f5069f3982d)
 </details>
 
+### 🔹 Throws vs Throw vs Throwable
 ### 🔹 How can we _throw_ an exception?
 ### 🔹 How can we _catch_ an exception?
 ### 🔹 Может ли быть try without catch. // только если с finally
-### 🔹 Can we catch multiple types of exceptions?
+### 🔹 Can we catch multiple types of exceptions? In which order.
 ### 🔹 Надо ли обрабатывать unchecked?
 ### 🔹 try catch finally.
 ```java
@@ -213,31 +220,44 @@ finally {
 ### 🔹 try with resources.
     Closable
     AutoClosable
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
-### 🔹
+### 🔹 Когда блок finally не выполняется.
+### 🔹 Как создать своё исключение.
+### 🔹 && vs  &   with boolean.
+### 🔹 Comparable interface vs Comparator class.
+### 🔹 Generics. Wildcard.
+### 🔹 Для чего нужен интерфейс Serializable.
+### 🔹 Какие методы нужно определить чтобы использовать хэш коллекции.
+### 🔹 Какие методы нужно определить чтобы использовать упорядоченные(sorted) коллекции.
+### 🔹 Иерархия коллекций в джава.
+<details><summary>Answer</summary>
+    
+ ![image](https://github.com/Vlarfich/JavaQuestions/assets/106491695/917fb8cb-401c-47e7-bf8b-b6265430a172)
+</details>
+
+### 🔹 Как работает HashMap<,>.
+### 🔹 Как происходит добавление элемента в HashMap, когда такой хэш уже есть/нету
+### 🔹 _String_ vs _StringBuffer_ vs _StringBuilder_.
+### 🔹 Mutable, Imutable classes.
+### 🔹 Что такое сигнатура метода
+### 🔹 break vs continue.
+### 🔹 SOLID principles.
+### 🔹 Design patterns.
+### 🔹 Когда можно использовать foreach
+### 🔹 Runtime- and Compiletime- Polymorphism in Java.
+### 🔹 BigInteger, BigDecimal, ...
+### 🔹 Есть ли в джаве конструктор по умолчанию и при каких условиях?
+### 🔹 Возможно ли определить в методах значения по умолчанию?
+### 🔹 Есть ли в java множественное наследование.
+### 🔹 Алгоритмическая сложность операций вставки и удаления в ArrayList, LinkedList
+### 🔹 ... в аргументе метода
+### 🔹 System.out.println('b' + 'i' + 't');  // ' -> число, " -> строка
+### 🔹 Abstract class vs interface.
+### 🔹 How we can iterate the Map
+### 🔹 What is enum
+### 🔹 What is synchronized? What is volatile?
+### 🔹 RelationalDB 1, 2, 3 normal forms.
+### 🔹 Primary key, goreign key.
+### 🔹 What DB relations do you know?
+### 🔹 What are the differences between 6 Joins
+### 🔹 What is agregate functions?
+### 🔹 _GROUP BY_ vs _HAVING_ vs _WHERE_
