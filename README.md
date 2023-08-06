@@ -181,6 +181,28 @@ UnaryOperator 	T → T
 
 
 ### 🔹 equals(obj) and hashCode() rules.
+<details><summary>Answer</summary>
+    
+```java
+        @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+
+        if (obj.getClass() != this.getClass()) {
+            return false;
+        }
+
+        Complex c = (Complex) obj;
+
+        return Double.compare(number1, c.number1) == 0
+                && Double.compare(number2, c.number2) == 0;
+    }
+}
+```
+</details>
+
 ### 🔹 how to properley implement equals().
 ### 🔹 Optional class.
 ### 🔹 Stream API. Типы методов стримов и их примеры.
